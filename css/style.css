@@ -1,0 +1,103 @@
+body {
+    height: 100%;
+}
+
+p {
+    color:#777777;
+}
+
+
+.navbar {
+    width: 60%;
+padding-left: 113px;
+}
+
+.navbar-light .navbar-nav .show > .nav-link {
+    color:#777777;
+}
+
+
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #efeee7;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 30px;
+padding-right: 54px;
+margin-top: -8px;
+margin-bottom: -8px;
+    
+}
+
+.collapse {
+    width:100%;
+    margin-left: 350px;
+    background-color: purple;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    background-color: red;
+    color:#777777;
+    
+}
+
+.col {
+    width: 100%;
+    border-top-width: 3px;
+border-top-style: solid;
+clear: both;
+}
+
+.main-bio {
+    background-color: #fff;
+    margin-left: 113px;
+    width: 60%;
+    text-align: left;
+padding-left: 29px;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: 17px;
+padding-top: 17px;
+padding-bottom: 3px;
+}
+
+.bio-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 29px;
+    margin-top: 22px;
+}
+
+.p1{
+    border-top-width: 3px;
+border-top-style: solid;
+padding-top: 12px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.row {
+    text-align: center;
+    width: 100%; 
+    background-color: #666666
+}
+
+.col-8 {
+    width: 100%;
+    flex: 0 0 auto;
+    max-width: 100%;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    color: #777777;
+}
+
