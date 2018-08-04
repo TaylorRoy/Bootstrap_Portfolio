@@ -114,13 +114,29 @@ border-color: #cccccc;
     background-color: #666666;
 }
 
+/* Below this line is styling for contact page */
+
+.name-area,
+.email-area,
+.message-area {
+    width: 90%;
+}
+
+.message-area {
+    margin-bottom: 18px;
+}
+
+.button {
+    background-color: #4aaaa5;
+}
+
+
+
 /* Below this line is styling for portfolio page */
 
 .word-guess-area {
     position: relative;
-
 width: 300px;
-
 height: 200px;
 }
 
@@ -137,5 +153,85 @@ height: 200px;
     right: 0px;
     top: 158px;
 
+}
+
+.rpg-area {
+    position: relative;
+width: 300px;
+height: 200px;
+}
+
+.rpg {
+    width: 300px;
+height: 200px;
+}
+
+.rpg-banner {
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    background-color: #4aaaa5;
+    right: 0px;
+    top: 158px;
+}
+
+.trivia-area {
+    position: relative;
+width: 300px;
+height: 200px;
+}
+
+.trivia {
+    width: 300px;
+height: 200px;
+}
+
+.trivia-banner {
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    background-color: #4aaaa5;
+    right: 0px;
+    top: 158px;
+}
+
+.widget-area {
+    position: relative;
+width: 300px;
+height: 200px;
+}
+
+.widget {
+    width: 300px;
+height: 200px;
+}
+
+.widget-banner {
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    background-color: #4aaaa5;
+    right: 0px;
+    top: 158px;
+}
+
+.rock-paper-scissors-area {
+    position: relative;
+width: 300px;
+height: 200px;
+}
+
+.rock-paper-scissors {
+    width: 300px;
+height: 200px;
+}
+
+.rock-paper-scissors-banner {
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    background-color: #4aaaa5;
+    right: 0px;
+    top: 158px;
 }
 }
