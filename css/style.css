@@ -9,12 +9,13 @@ p {
 
 .navbar {
     width: 100%;
-padding-left: 113px;
-background-color: ##ffffff;
+    padding-left: 113px;
+    background-color: #ffffff;
 }
 
  .navbar-nav {
     flex-direction: row;
+    padding-left: 6.5%;
 }
 
 .navbar-brand {
@@ -22,11 +23,11 @@ background-color: ##ffffff;
     color: #efeee7;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 30px;
-padding-right: 30px;
-margin-top: -8px;
-margin-bottom: -8px;    
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -8px;
+    margin-bottom: -8px;    
 }
 
 .taylor {
@@ -36,7 +37,6 @@ margin-bottom: -8px;
 .collapse {
     width:100%;
     margin-left: 50%;
-    background-color: purple;
 }
 
 .nav-link {
@@ -44,35 +44,48 @@ margin-bottom: -8px;
     color:#777777;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    background-color: red;
-    color:#777777;
+
     
+.sticky-bottom {
+    padding-left: 0px;
+border-top-width: 6px;
+border-top-style: solid;
+border-color: #4aaaa5;
+padding-right: 0px;
+}
+
+#sticky-copyright {
+    text-align: center;
+background-color: #666666;
+color:#cccccc;
 }
 
 .col {
-    width: 100%;
-    border-top-width: 3px;
-border-top-style: solid;
-border-color: #cccccc;
-clear: both;
-height: auto;
+    /* width: 100%; */
+     border-top-width: 3px;
+    border-top-style: solid;
+    border-color: #cccccc;
+    clear: both;
+    height: auto;
 }
 
 .main-bio {
     background-color:#ffffff;
     margin-left: 113px;
-    width: 60%;
     text-align: left;
-padding-left: 29px;
+    padding-left: 29px;
 }
 
 h2 {
     color:#4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-top: 17px;
-padding-top: 17px;
-padding-bottom: 3px;
+    padding-top: 17px;
+    padding-bottom: 3px;
+    border-bottom-width: 3px;
+border-bottom-style: solid;
+border-color:#cccccc;
+padding-bottom: 12px;
 }
 
 .bio-image {
@@ -84,42 +97,23 @@ padding-bottom: 3px;
 }
 
 .p1{
-    border-top-width: 3px;
-border-top-style: solid;
+
 padding-top: 12px;
 border-color: #cccccc;
 }
 
-.footer {
-    position: sticky;
-    bottom: 0px;
-    width: 100%;
-}
-.row {
-    text-align: center;
-    width: 100%; 
-    background-color: #666666
-}
 
-.col-8 {
-    width: 100%;
-    height:40px;
-    flex: 0 0 auto;
-    max-width: 100%;
-    border-top-width: 3px;
-    padding-top: 5px;
-    border-top-style: solid;
-    border-color: #4aaaa5;
-    color: #cccccc;
-    background-color: #666666;
-}
 
 /* Below this line is styling for contact page */
 
 .name-area,
 .email-area,
 .message-area {
-    width: 90%;
+    width: 95%;
+}
+
+.col {
+    /* height:415px; */
 }
 
 .message-area {
@@ -128,21 +122,49 @@ border-color: #cccccc;
 
 .button {
     background-color: #4aaaa5;
+    margin-bottom: 10px;
 }
 
 
 
 /* Below this line is styling for portfolio page */
 
+.main-bio-portfolio {
+    padding-left: 0px;
+margin-left: 97px;
+}
+#col-portfolio {
+    padding-bottom: 40px;
+margin-bottom: 0px;
+}
+
+#main-bio-portfolio {
+    padding-bottom: 136px;
+    padding-left: 0px;
+margin-left: 98px;
+}
+
+.picture-area {
+display: flex;
+  flex-wrap: wrap;
+}
+.h2portfolio {
+    margin-bottom: 30px;
+    padding-left: 31px;
+}
+
 .word-guess-area {
     position: relative;
-width: 300px;
-height: 200px;
+    width: 300px;
+    height: 200px; 
+    padding-right: 93px;
+margin-right: 52px;
+padding-left: 15px; 
 }
 
 .word-guess {
     width: 300px;
-height: 200px;
+    height: 200px;
 }
 
 .word-guess-banner {
@@ -150,20 +172,22 @@ height: 200px;
     width: 300px;
     height: 45px;
     background-color: #4aaaa5;
+    color:#777777;
+    text-align: center;
     right: 0px;
-    top: 158px;
-
+    left: 15px;
+    top: 138px;
 }
 
 .rpg-area {
     position: relative;
-width: 300px;
-height: 200px;
+    width: 300px;
+    height: 200px;
 }
 
 .rpg {
     width: 300px;
-height: 200px;
+    height: 200px;
 }
 
 .rpg-banner {
@@ -171,19 +195,26 @@ height: 200px;
     width: 300px;
     height: 45px;
     background-color: #4aaaa5;
+    color:#cccccc;
+    text-align: center;
     right: 0px;
-    top: 158px;
+    left: 15.583px;
+top: 138px;
 }
 
 .trivia-area {
     position: relative;
-width: 300px;
-height: 200px;
+    width: 300px;
+    height: 200px;
+    top: 51px;
+    padding-right: 93px;
+margin-right: 52px;
+padding-left: 15px;
 }
 
 .trivia {
     width: 300px;
-height: 200px;
+    height: 200px;
 }
 
 .trivia-banner {
@@ -191,19 +222,26 @@ height: 200px;
     width: 300px;
     height: 45px;
     background-color: #4aaaa5;
+    color:#cccccc;
+    text-align: center;
     right: 0px;
-    top: 158px;
+    top: 138px;
+    left:15px;
 }
 
 .widget-area {
     position: relative;
-width: 300px;
-height: 200px;
+    width: 300px;
+    height: 200px;
+    top: 51px;
+    padding-right: 93px;
+margin-right: 52px;
+padding-left: 15px;
 }
 
 .widget {
     width: 300px;
-height: 200px;
+    height: 200px;
 }
 
 .widget-banner {
@@ -211,19 +249,23 @@ height: 200px;
     width: 300px;
     height: 45px;
     background-color: #4aaaa5;
+    color:#cccccc;
+    text-align: center;
     right: 0px;
-    top: 158px;
+    left:15px;
+    top: 138px;
 }
 
 .rock-paper-scissors-area {
     position: relative;
-width: 300px;
-height: 200px;
+    width: 300px;
+    height: 200px;
+    top: 100px;
 }
 
 .rock-paper-scissors {
     width: 300px;
-height: 200px;
+    height: 200px;
 }
 
 .rock-paper-scissors-banner {
@@ -231,7 +273,10 @@ height: 200px;
     width: 300px;
     height: 45px;
     background-color: #4aaaa5;
+    color:#cccccc;
+    text-align: center;
     right: 0px;
-    top: 158px;
+    left:15px;
+    top: 138px;
 }
 }
