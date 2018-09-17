@@ -153,7 +153,7 @@ display: flex;
     padding-left: 31px;
 }
 
-.word-guess-area {
+.giphy-area {
     position: relative;
     width: 300px;
     height: 200px; 
@@ -162,12 +162,12 @@ margin-right: 52px;
 padding-left: 15px; 
 }
 
-.word-guess {
+.giphy {
     width: 300px;
     height: 200px;
 }
 
-.word-guess-banner {
+.giphy-banner {
     position: absolute;
     width: 300px;
     height: 45px;
@@ -179,18 +179,18 @@ padding-left: 15px;
     top: 138px;
 }
 
-.rpg-area {
+.hangman-area {
     position: relative;
     width: 300px;
     height: 200px;
 }
 
-.rpg {
+.hangman {
     width: 300px;
     height: 200px;
 }
 
-.rpg-banner {
+.hangman-banner {
     position: absolute;
     width: 300px;
     height: 45px;
@@ -229,7 +229,7 @@ padding-left: 15px;
     left:15px;
 }
 
-.widget-area {
+.crystal-area {
     position: relative;
     width: 300px;
     height: 200px;
@@ -239,12 +239,12 @@ margin-right: 52px;
 padding-left: 15px;
 }
 
-.widget {
+.crystal {
     width: 300px;
     height: 200px;
 }
 
-.widget-banner {
+.crystal-banner {
     position: absolute;
     width: 300px;
     height: 45px;
@@ -256,19 +256,19 @@ padding-left: 15px;
     top: 138px;
 }
 
-.rock-paper-scissors-area {
+.train-scheduler-area {
     position: relative;
     width: 300px;
     height: 200px;
     top: 100px;
 }
 
-.rock-paper-scissors {
+.train-scheduler {
     width: 300px;
     height: 200px;
 }
 
-.rock-paper-scissors-banner {
+.train-scheduler-banner {
     position: absolute;
     width: 300px;
     height: 45px;
@@ -278,5 +278,4 @@ padding-left: 15px;
     right: 0px;
     left:15px;
     top: 138px;
-}
 }
