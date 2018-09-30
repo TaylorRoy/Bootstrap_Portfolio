@@ -131,21 +131,21 @@ border-color: #cccccc;
 
 .main-bio-portfolio {
     padding-left: 0px;
-margin-left: 97px;
+    margin-left: 97px;
 }
 #col-portfolio {
     padding-bottom: 40px;
-margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #main-bio-portfolio {
     padding-bottom: 136px;
     padding-left: 0px;
-margin-left: 98px;
+    margin-left: 98px;
 }
 
 .picture-area {
-display: flex;
+    display: flex;
   flex-wrap: wrap;
 }
 .h2portfolio {
@@ -158,8 +158,8 @@ display: flex;
     width: 300px;
     height: 200px; 
     padding-right: 93px;
-margin-right: 52px;
-padding-left: 15px; 
+    margin-right: 52px;
+    padding-left: 15px; 
 }
 
 .giphy {
@@ -199,7 +199,7 @@ padding-left: 15px;
     text-align: center;
     right: 0px;
     left: 15.583px;
-top: 138px;
+    top: 138px;
 }
 
 .trivia-area {
@@ -208,8 +208,8 @@ top: 138px;
     height: 200px;
     top: 51px;
     padding-right: 93px;
-margin-right: 52px;
-padding-left: 15px;
+    margin-right: 52px;
+    padding-left: 15px;
 }
 
 .trivia {
@@ -235,8 +235,8 @@ padding-left: 15px;
     height: 200px;
     top: 51px;
     padding-right: 93px;
-margin-right: 52px;
-padding-left: 15px;
+    margin-right: 52px;
+    padding-left: 15px;
 }
 
 .crystal {
@@ -261,6 +261,9 @@ padding-left: 15px;
     width: 300px;
     height: 200px;
     top: 100px;
+    padding-right: 93px;
+    margin-right: 52px;
+    padding-left: 15px;
 }
 
 .train-scheduler {
@@ -269,6 +272,32 @@ padding-left: 15px;
 }
 
 .train-scheduler-banner {
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    background-color: #4aaaa5;
+    color:#cccccc;
+    text-align: center;
+    right: 0px;
+    left:15px;
+    top: 138px;
+}
+
+.soda-guru-area {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 100px;
+    /*
+    margin-left: 53px;     */
+}
+
+.soda-guru {
+    width: 300px;
+    height: 200px;
+}
+
+.soda-guru-banner {
     position: absolute;
     width: 300px;
     height: 45px;
