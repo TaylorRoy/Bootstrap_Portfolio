@@ -23,6 +23,6 @@ $(document).on("click", ".train-scheduler", function(){
 });
 
 $(document).on("click", ".soda-guru", function(){
-    alert("you clicked")
+    
     window.open("https://taylorroy.github.io/Soda_Guru/");
 });
